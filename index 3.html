@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <meta charset="UTF-8">
+	<meta name="viewport"content="width=device-witdh,initial-scale=1.0">
+    <meta name ="description"content="PORTAFOLIO">
+    <meta name ="author"content="Felipe Tánori">
+<title> carrousel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style3.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body> 
+  <main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	<header>
+	<h1> Clwnsht </h1>
+	<br>
+<h2> Portafolio fotografico</h2>
+<hr>
+</header>
+	<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="foto1.jpeg" class="d-block w-100" alt="foto1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>atardecer en mazatlan</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="foto7.jpeg" class="d-block w-100" alt="foto2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>sun</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="foto6.jpeg" class="d-block w-100" alt="foto3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ttk</h5>
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ 
+
+</div>
+<br> <br>
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Presentacion</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">Sobre mi:</h4>
+  <p>Hola que tal, me llamo Felipe me pueden llamar Fel :D <br> 
+  	Soy un fotógrafo independiente en su mayoría de paisajes ya que es la rama fotografica que más me gusta,<br>
+  	en esta pagina encontraras algunas de las fotos que he hestado tomando a lo largo de estos años que sirven <br>
+  como portafolio para que puedas observar mi trabajo  </p>
+ 
+</div>
+<div class="seccion-experiencia">
+
+  <!-- IZQUIERDA: RESEÑAS -->
+  <div class="bloque-izquierdo">
+    <div class="carousel-container">
+      <div class="carousel-slide" id="slider">
+        <div class="review-card">
+          <p>Es un fotógrafo que va comenzando, pero ya muestra buen ojo para capturar paisajes y aprovechar la luz natural. <br>
+          Sus imágenes transmiten tranquilidad y una conexión con la naturaleza. Aunque aún está desarrollando su técnica y estilo, se nota su potencial y ganas de mejorar. Con práctica, puede llegar a destacar en la fotografía de paisaje.</p>
+          <h4>- Alejandro Ruiz</h4>
+        </div>
+        <div class="review-card">
+          <p>"Una muy buena calidad en su trabajo."</p>
+          <h4>- Carlos Tirado</h4>
+        </div>
+      </div>
+    </div>
+   
+    <div class="carousel-buttons">
+      <button id="btnPrev">Anterior</button>
+      <button id="btnNext">Siguiente</button>
+    </div>
+  </div>
+    <div class="bloque-perfil-completo">
+    
+    <img src="perfil.jpeg" class="foto-perfil">
+
+    <div class="tarjeta-contacto">
+      <p>¿Te gusta mi trabajo? <br>
+      Puedes contactarme acá abajo: <br>
+      <strong>Felipetanori06@gmail.com</strong><br>
+      <strong>622 176 9145</strong> </p>
+
+      <hr> 
+
+      <h3>Mis Redes</h3>
+      <div class="fila-redes">
+        <a href="https://www.instagram.com/sr_fel/" class="boton-red">
+          <i class="fa-brands fa-instagram"> </i>
+        </a> 
+        <a href="https://www.youtube.com/@Fel_Payasonso" class="boton-red">
+          <i class="fa-brands fa-youtube"> </i>
+        </a>
+        <a href="https://www.tiktok.com/@clownsh3et" class="boton-red">
+          <i class="fa-brands fa-tiktok"> </i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100092696564359" class="boton-red">
+          <i class="fa-brands fa-facebook"> </i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+
+<footer>
+  <h5>2026
+<br> Derechos reservados a felipe tanori</h5></footer>
